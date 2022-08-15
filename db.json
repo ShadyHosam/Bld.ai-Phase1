@@ -52,12 +52,12 @@
     },
     {
       "id": 6,
-      "category": "excel",
-      "course_img": "images/Excel Course 1.PNG",
-      "title": "Microsoft Excel 2013 Course Beginners/ Intermediate Training",
-      "author": "Infinite Skills",
-      "rating": 4.6,
-      "ratings_count": "1,617",
+      "category": "Java",
+      "course_img": "images/java.jpg",
+      "title": "Java Programming Masterclass Course",
+      "author": "Abrar Hussain",
+      "rating": 4.5,
+      "ratings_count": "2,000",
       "price": "E£199.99"
     },
     {
