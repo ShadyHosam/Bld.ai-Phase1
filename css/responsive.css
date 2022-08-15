@@ -1,0 +1,21 @@
+@media (max-width:900px) {
+    .login-button, .signup-button,.search,.categories-button{
+        display: none;
+    }
+    .side-menu,.small-screen-search{
+        display: inline;
+    }
+    .mobile-screen-text{
+        display: block;
+    }
+    .offers-box{
+       display: none;
+    }
+}
+
+@media (max-width:1000px){
+    .navbar-elements{
+        display: none;
+    }
+}
+
