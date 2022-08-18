@@ -2,7 +2,7 @@ let coursesData;
 function fetchCourses() {
 
   let parent = document.querySelector(".courses-flex-box");
-  fetch("https://shadyhosam.github.io/Bld.ai-phase1/db.json")
+  fetch("https://shadyhosam.github.io/Bld.ai-phase2/db.json")
     .then((Response) => Response.json())
     .then((items) => {
       console.log(items.courses);
