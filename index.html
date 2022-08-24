@@ -91,16 +91,16 @@
           <h3 style="font-size:20px ;">Choose from 185,000 online video courses with additions published every month</h3>
           <ul>
             <li><button style="color: black;" class="courses-categories">Python</button></li>
-            <li><button class="courses-categories">Excel</button></li>
+            <li><button class="courses-categories"onclick="filterSelection('python')">Excel</button></li>
 
-            <li><button class="courses-categories">Web Development</button></li>
+            <li><button class="courses-categories"onclick="filterSelection('python')">Web Development</button></li>
 
-            <li><button class="courses-categories">JavaScript</button></li>
+            <li><button class="courses-categories"onclick="filterSelection('python')">JavaScript</button></li>
 
-            <li><button class="courses-categories">Data Science</button></li>
+            <li><button class="courses-categories"onclick="filterSelection('python')">Data Science</button></li>
 
-            <li><button class="courses-categories">AWS Certification</button></li>
-            <li><button class="courses-categories">Drawing</button></li>
+            <li><button class="courses-categories"onclick="filterSelection('python')">AWS Certification</button></li>
+            <li><button class="courses-categories"onclick="filterSelection('python')">Drawing</button></li>
           </ul>
           <div class="courses-container">
             <div class="Text-info">
@@ -502,15 +502,85 @@
                 </button>
               </div>
             </div>
-
           </div>
       </div>
-    </section>
-   
+ 
+      <h2 class="text-sm text-center my-3 mb-5">Top Categories</h2>
+      <div class="row">
 
- <!-- <script src="script.js"></script>      -->
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+          <img
+            class="img-fluid"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg"
+            alt="Design"
+          />
+          <div class="my-3 fw-bold">Design</div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+          <img
+            class="img-fluid"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg"
+            alt="Development"
+          />
+          <div class="my-3 fw-bold">Development</div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+          <img
+            class="img-fluid"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg"
+            alt="Marketing"
+          />
+          <div class="my-3 fw-bold">Marketing</div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+          <img
+            class="img-fluid"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg"
+            alt="IT and Software"
+          />
+          <div class="my-3 fw-bold">IT and Software</div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+          <img
+            class="img-fluid"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"
+            alt="personal-development"
+          />
+          <div class="my-3 fw-bold">Personal Development</div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+          <img
+            class="img-fluid"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg"
+            alt="Business"
+          />
+          <div class="my-3 fw-bold">Business</div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+          <img
+            class="img-fluid"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg"
+            alt="Photography"
+          />
+          <div class="my-3 fw-bold">Photography</div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+          <img
+            class="img-fluid"
+            src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg"
+            alt="Music"
+          />
+          <div class="my-3 fw-bold">Music</div>
+        </div>
+      </div>
+    </section>
+
+    
+
+  <!-- <script src="script.js"></script>    -->
   
 
+ <script src="scriptbtn.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

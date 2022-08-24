@@ -2,7 +2,7 @@ let coursesData;
 function fetchCourses() {
 
   let parent = document.querySelector(".courses-flex-box");
-  fetch("https://shadyhosam.github.io/Bld.ai-phase2/db.json")
+  fetch("https://shadyhosam.github.io/jsonData/db.json")
     .then((Response) => Response.json())
     .then((items) => {
       console.log(items.courses);
@@ -12,8 +12,6 @@ function fetchCourses() {
       });
     });
 }
-
-
 
 function ShowCourse(item) {
   let course = document.createElement("div");
@@ -35,7 +33,6 @@ function ShowCourse(item) {
     `;
   return course;
 }
-
 function onSearchClick(event) {
   event.preventDefault();
   let searchText = document.querySelector(".search-input").value;
