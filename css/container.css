@@ -4,9 +4,9 @@
   margin:0;
   font-family: sans-serif;
 }
-.container{
-  margin: 2px 10%;
-}
+/* .container{
+  /* margin: 2px 10%; 
+}*/ 
 .offers-section{
   background-image: url("background.jpg");
   background-size: cover;
@@ -122,4 +122,36 @@ h3,h4{
 .fa-star,.rating{
   font-size: min(15px,1vw);
   color:#ffa500 !important;
+  display: inline-block;
+  text-align: left;
 } 
+.card-img-top {
+  width: 100%;
+ margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.course-name{
+  font-weight:  bold;
+  font-size: 15px;
+  text-align: left;
+}
+.course-price
+{
+  font-size: 20px;
+  color:black;
+  text-align: left;
+  font-weight: bold;
+}
+.course-rate{
+  font-size: min(20px,1vw);
+  color:grey;
+  
+  font-weight: bold;
+}
+.author-name{
+  text-align: left;
+  font-size: min(20px,1vw);
+  color:grey;
+
+}
