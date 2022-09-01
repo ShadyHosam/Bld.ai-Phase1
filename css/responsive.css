@@ -19,3 +19,65 @@
     }
 }
 
+@media screen and (max-width: 1100px) {
+  
+    .udemy-business-container,
+    .udemy-teach-container {
+      display: none;
+    }
+    .carousel-control-prev,
+    .carousel-control-next{
+      top: 20%;
+    }
+  }
+  @media screen and (max-width: 950px){
+    .carousel-control-prev,
+    .carousel-control-next{
+      top: 14%;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .sign-up {
+      display: none;
+    }
+    .log-in {
+      display: none;
+    }
+    .language {
+      display: none;
+    }
+    .add-to-cart {
+      display: none;
+    }
+    .categories-container {
+      display: none;
+    }
+    .search-bar-container {
+      display: none;
+    }
+    nav{
+      flex-direction: row-reverse;
+      height: 65px;
+    }
+    .udemy-logo{
+      padding-right: 0; 
+    }
+    .toogle-btn {
+      display: flex;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    header .header-pic {
+      background-position: 80% center;
+    }
+  
+    header .header-card {
+      position: static;
+      box-shadow: none;
+      width: initial;
+      padding-bottom: 0;
+    }
+    .course-text-container{
+      visibility: hidden;
+    }
+  }

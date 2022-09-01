@@ -28,11 +28,11 @@ header{
 {
   color: gray;
 }
-a{
+/* a{
   margin-left: 20px;
   width: 90px;
   margin-right: 15px;
-}
+} */
 
 .categories-button{
   background:none;
