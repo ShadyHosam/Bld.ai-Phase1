@@ -8,12 +8,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     />
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/container.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/responsive.css">
-
-
     <title>Udemy Home Page</title>
   </head>
   <body>
@@ -27,21 +27,15 @@
         </a>
         <button class="categories-button">Categories</button>
         <form class="search">
-
-
           <button class="submit">
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
-
           <input
-
             class="search-input"
             type="text"
             placeholder="Search for anything"
           />
         </form>
-
-
         <div class="navbar-elements">
           <button class="categories-button">Udemy Business</button>
           <button class="categories-button">Teach On Udemy</button>
@@ -50,20 +44,12 @@
           <i class="mobile-search fa-solid fa-magnifying-glass"></i>
           <i class="fa-solid fa-cart-shopping"></i>
         </div>
-
         <button class="login-button">Log in</button>
-
-        
         <button class="signup-button">Sign up</button>
-
-
         <button class="login-button language">
-
           <i class="fa-solid fa-globe"></i>
-
         </button>
     </header>
-
     <section class="container">
       <div class="offers-section">
         <div class="offers-box">
@@ -80,41 +66,142 @@
           </h3>
       </div>
     </section>
-    <section class="container">
-      <div class="Courses-overview">
-          <h1 style="font-size: 25px; font-weight: 600;">A broad selection of courses</h1>
-          <h3 style="font-size:20px ;">Choose from 185,000 online video courses with additions published every month</h3>
-          <ul>
-            <li><button style="color: black;" class="courses-categories">Python</button></li>
-            <li><button class="courses-categories">Excel</button></li>
 
-            <li><button class="courses-categories">Web Development</button></li>
-
-            <li><button class="courses-categories">JavaScript</button></li>
-
-            <li><button class="courses-categories">Data Science</button></li>
-
-            <li><button class="courses-categories">AWS Certification</button></li>
-            <li><button class="courses-categories">Drawing</button></li>
-          </ul>
-          <div class="courses-container">
-            <div class="Text-info">
-              <h2>Expand your career opportunities with Python</h2><br>
-              <p style="line-height:25px; font-size: 20px;">
-                Take one of Udemy's range of Python courses and learn how to code using this incredibly useful language.
-                Its simple syntax and readability makes Python perfect for Flask, Django, data science, and machine learning. 
-                You'll learn how to build everything from games to sites to apps. 
-                Choose from a range of courses that will appeal to both beginners and advanced developers alike...
-              </p>
-              <br>
-              <button style="font-weight:bold;" class="explore login-button">Explore Python</button>
-              <br/>
-              <br/>
-            </div>
-            <div class="courses-flex-box"></div>
+    <main>
+      <section>
+        <div class="course-text-container">
+          <div class="course-selection">A broad selection of courses</div>
+          <div class="course-intro">
+            Choose from 185,000 online video courses with new additions
+            published every month
           </div>
-      </div>
-    </section>
-    <script src="script.js"></script>
+        </div>
+        <ul class="course-related-topics">
+          <li class="listOfCourses active py"><a href="#" class="pythonBtn">Python</a></li>
+          <li class="listOfCourses exe"><a href="#" class="excelBtn">Excel</a></li>
+          <li class="listOfCourses web"><a href="#" class="webBtn">Web Development</a></li>
+          <li class="listOfCourses js"><a href="#" class="jsBtn">JavaScript</a></li>
+          <li class="listOfCourses dta"><a href="#" class="dataBtn">Data Science</a></li>
+          <li class="listOfCourses aws"><a href="#" class="AwsBtn">AWS Certificate</a></li>
+          <li class="listOfCourses draw"><a href="#" class="DrawingBtn">Drawing</a></li>
+        </ul>
+      </section>
+  
+      <section class="courses">
+        <div class="courses-header-text">
+          <div class="title">Expand your career opportunities with Python</div>
+          <div class="details">
+            Take one of Udemy's range of python courses and learn how to code
+            using this incredibly useful language.its simple syntax and
+            readability makes python perfect for Flask, Django, data Science,
+            and machine learning. You'll learn how to build everything from
+            games to websites to apps. Choose from a range of courses that
+            appeal to...
+          </div>
+          <button type="button" class="Explore-btn">Explore python</button>
+        </div>
+
+        
+        <div class="course-preview-container">
+          <div id="C1" class="carousel carousel-dark slide d-none d-md-block" data-interval="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="items-container one">
+  
+                </div>
+              </div>
+              <div class="carousel-item second">
+                <div class="items-container two">
+  
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#C1" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#C1" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+  
+          <div id="carouselExampleControls" class="carousel carousel-dark slide d-md-none" data-interval="false">
+            <div class="carousel-inner">
+            </div>
+
+            <!--Go Back , Go Next..-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+  
+  <!-- Cateogries Section ! -->
+      <section class="cato">
+        <h3 class="text-sm text-center my-3 mb-5">Top Categories</h3>
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+            <img class="img-fluid" src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg"
+              alt="Design" />
+            <div class="my-3 fw-bold">Design</div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+            <img class="img-fluid" src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg"
+              alt="Development" />
+            <div class="my-3 fw-bold">Development</div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+            <img class="img-fluid" src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg"
+              alt="Marketing" />
+            <div class="my-3 fw-bold">Marketing</div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+            <img class="img-fluid" src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg"
+              alt="IT and Software" />
+            <div class="my-3 fw-bold">IT and Software</div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+            <img class="img-fluid"
+              src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"
+              alt="personal-development"/>
+            <div class="my-3 fw-bold">Personal Development</div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+            <img class="img-fluid" src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg"
+              alt="Business" />
+            <div class="my-3 fw-bold">Business</div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+            <img class="img-fluid" src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg"
+              alt="Photography" />
+            <div class="my-3 fw-bold">Photography</div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-6 text-center category">
+            <img class="img-fluid" src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg"
+              alt="Music" />
+            <div class="my-3 fw-bold">Music</div>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+  
+  
+    <!-- <script src="script.js"></script>    -->
+  
+
+ <script src="script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+ crossorigin="anonymous"></script>
   </body>
 </html>

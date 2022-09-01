@@ -1,74 +1,968 @@
-{
-  "courses": [
-    {
-      "id": 1,
-      "category": "python",
-      "course_img": "images/Course 1.PNG",
-      "title": "Learn Python: The Complete Python Programming Course",
-      "author": "Abrar Hussain",
-      "rating": 4.4,
-      "ratings_count": "2,916",
-      "price": "E£679.99"
-    },
-    {
-      "id": 2,
-      "category": "python",
-      "course_img": "images/Course 2.PNG",
-      "title": "Learning Python for Data Analysis and Visualization",
-      "author": "Abrar Hussain",
-      "rating": 4.4,
-      "ratings_count": "17,984",
-      "price": "E£1,599.99"
-    },
-    {
-      "id": 3,
-      "category": "python",
-      "course_img": "images/Course 3.PNG",
-      "title": "Python for Beginners - Learn Programming from scratch",
-      "author": "Edwin Diaz, Coding Faculty Solutions",
-      "rating": 4.4,
-      "ratings_count": "1,766",
-      "price": "E£679.99"
-    },
-    {
-      "id": 4,
-      "category": "python",
-      "course_img": "images/Course 4.PNG",
-      "title": "Learn Python: Python for Beginners",
-      "author": "Abrar Hussain",
-      "rating": 4.3,
-      "ratings_count": "2,767",
-      "price": "E£319.99"
-    },
-    {
-      "id": 5,
-      "category": "python",
-      "course_img": "images/Course 5.PNG",
-      "title": "Python Beyond the Basics - Object-Oriented Programming",
-      "author": "Abrar Hussain",
-      "rating": 4.4,
-      "ratings_count": "2,929",
-      "price": "E£519.99"
-    },
-    {
-      "id": 6,
-      "category": "Java",
-      "course_img": "images/java.png",
-      "title": "Java Programming Masterclass Course",
-      "author": "Abrar Hussain",
-      "rating": 4.5,
-      "ratings_count": "2,000",
-      "price": "E£199.99"
-    },
-    {
-      "id": 7,
-      "category": "excel",
-      "course_img": "images/Excel Course 2.PNG",
-      "title": "Microsoft Excel 2013 Advanced. Online Excel Training Course",
-      "author": "Abrar Hussain",
-      "rating": 4.5,
-      "ratings_count": "3,501",
-      "price": "E£219.99"
-    }
-  ]
-}
+[
+  {
+    "python": [
+      {
+        "id": 0,
+        "img": "courses/python/1.png",
+        "title": "Learn Python: The Complete Python Programming Course",
+        "author": "Avinash Jain, The Codex",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,876)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 1,
+        "img": "courses/python/2.png",
+        "title": "Learning Python for Data Analysis and Visualization",
+        "author": "Jose Portilla",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(17,984)",
+        "price": "E£269.99"
+      },
+      {
+        "id": 2,
+        "img": "courses/python/3.png",
+        "title": "Python for Beginners - Learn Programming from scratch",
+        "author": "Edwin Diaz, Coding Faculty Solutions",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(1,766)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 3,
+        "img": "courses/python/4.png",
+        "title": "Learn Python: Python for Beginners",
+        "author": "Abrar Hussain",
+        "rate": 4.3,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,767)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 4,
+        "img": "courses/python/5.png",
+        "title": "Python Beyond the Basics - Object-Oriented Programming",
+        "author": "Infinite Skills",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£229.99"
+      },
+      {
+        "id": 5,
+        "img": "courses/python/6.png",
+        "title": "Automate the Boring Stuff with Python Programming",
+        "author": "Al Sweigart",
+        "rate": 4.7,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£14.99"
+      },
+      {
+        "id": 6,
+        "img": "courses/python/7.png",
+        "title": "2022 Complete Python Bootcamp From Zero to Hero",
+        "author": "Jose Portilla",
+        "rate": 4.6,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£34.99"
+      },
+      {
+        "id": 7,
+        "img": "courses/python/8.png",
+        "title": "Python for Beginners with Examples",
+        "author": "Ardit Sulce",
+        "rate": 4.5,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£16.99"
+      },
+      {
+        "id" : 8,
+        "tit": "Expand your career opportunities with Python",
+        "disc": "Take one of Udemy's range of python courses and learn how to code using this incredibly useful language.its simple syntax and readability makes python perfect for Flask, Django, data Science, and machine learning. You'll learn how to build everything from games to websites to apps. Choose from a range of courses that appeal to...",
+        "bt" : "Explore python" 
+      }
+    ]
+  },
+  {
+    "excel": [
+      {
+        "id": 0,
+        "img": "courses/Excel/1.png",
+        "title": "Microsoft Excel 2013 Course Beginners/ Intermediate Training",
+        "author": "Avinash Jain, The Codex",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,876)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 1,
+        "img": "courses/Excel/2.png",
+        "title": "Microsoft Excel 2013 Advanced. Online Excel",
+        "author": "Jose Portilla",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(17,984)",
+        "price": "E£269.99"
+      },
+      {
+        "id": 2,
+        "img": "courses/Excel/3.png",
+        "title": "Microsoft Excel - From Beginner to Expert in 6 Hours",
+        "author": "Edwin Diaz, Coding Faculty Solutions",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(1,766)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 3,
+        "img": "courses/Excel/4.png",
+        "title": "Sharper skills using Microsoft Excel 2010 for business",
+        "author": "Abrar Hussain",
+        "rate": 4.3,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,767)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 4,
+        "img": "courses/Excel/5.png",
+        "title": "Learn Microsoft Excel 2013 - Advanced",
+        "author": "Infinite Skills",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£229.99"
+      },
+      {
+        "id": 5,
+        "img": "courses/Excel/6.png",
+        "title": "Excel 2013",
+        "author": "Al Sweigart",
+        "rate": 4.7,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£14.99"
+      },
+      {
+        "id": 6,
+        "img": "courses/Excel/7.png",
+        "title": "7 Steps To Excel Success - Excel Skills And Power Tips",
+        "author": "Jose Portilla",
+        "rate": 4.6,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£34.99"
+      },
+      {
+        "id": 7,
+        "img": "courses/Excel/8.png",
+        "title": "Advanced Excel - Beginner to Ninja level (includes Charts)",
+        "author": "Ardit Sulce",
+        "rate": 4.5,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£16.99"
+      },
+      {
+        "id": 8,
+        "tit": "Analyze and visualize data with Excel",
+        "disc": "Take a Microsoft Excel course from Udemy, and learn how to use this industry-standard software. Real-world experts will show you the basics like how to organize data into sheets, rows and columns, and advanced techniques like creating complex dynamic formulas. Both small businesses and large companies use Excel to turn their raw data into actionable insights.",
+        "bt": "Explore Excel"
+      }
+    ]
+  },
+  {
+    "Web_Dev": [
+      {
+        "id": 0,
+        "img": "courses/WebDev/1.png",
+        "title": "Become a Certified HTML, CSS, JavaScript",
+        "author": "Avinash Jain, The Codex",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,876)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 1,
+        "img": "courses/WebDev/2.png",
+        "title": "The Complete 2020 Fullstack Web Developer Course",
+        "author": "Jose Portilla",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(17,984)",
+        "price": "E£269.99"
+      },
+      {
+        "id": 2,
+        "img": "courses/WebDev/3.png",
+        "title": "Introduction to Web Development",
+        "author": "Edwin Diaz, Coding Faculty Solutions",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(1,766)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 3,
+        "img": "courses/WebDev/4.png",
+        "title": "Running a Web Development Business: The Complete Guide",
+        "author": "Abrar Hussain",
+        "rate": 4.3,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,767)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 4,
+        "img": "courses/WebDev/5.png",
+        "title": "Ultimate Web Designer & Web Developer Course",
+        "author": "Infinite Skills",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£229.99"
+      },
+      {
+        "id": 5,
+        "img": "courses/WebDev/6.png",
+        "title": "Introduction to Programming",
+        "author": "Al Sweigart",
+        "rate": 4.7,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£14.99"
+      },
+      {
+        "id": 6,
+        "img": "courses/WebDev/7.png",
+        "title": "The Complete 2022 Web Development Course",
+        "author": "Jose Portilla",
+        "rate": 4.6,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£34.99"
+      },
+      {
+        "id": 7,
+        "img": "courses/WebDev/8.png",
+        "title": "The Web Developer Bootcamp 2022",
+        "author": "Ardit Sulce",
+        "rate": 4.5,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£16.99"
+      },
+      {
+        "id": 8,
+        "tit": "Build websites and applications with Web Development",
+        "disc": "The world of web development is as wide as the internet itself. Much of our social and vocational lives play out on the internet, which prompts new industries aimed at creating, managing, and debugging the websites and applications that we increasingly rely on.",
+        "bt": "Explore Web Development"
+      }
+    ]
+  },
+  {
+    "JS": [
+      {
+        "id": 0,
+        "img": "courses/JS/1.png",
+        "title": "JavaScript from Beginner to Expert",
+        "author": "Avinash Jain, The Codex",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,876)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 1,
+        "img": "courses/JS/2.png",
+        "title": "JavaScript for Kids: Code Your Own Games and Apps",
+        "author": "Jose Portilla",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(17,984)",
+        "price": "E£269.99"
+      },
+      {
+        "id": 2,
+        "img": "courses/JS/3.png",
+        "title": "Advanced Javascript",
+        "author": "Edwin Diaz, Coding Faculty Solutions",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(1,766)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 3,
+        "img": "courses/JS/4.png",
+        "title": "The Complete JavaScript Course For Web Development",
+        "author": "Abrar Hussain",
+        "rate": 4.3,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,767)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 4,
+        "img": "courses/JS/5.png",
+        "title": "The Complete JavaScript Course 2022: From Zero to hero",
+        "author": "Infinite Skills",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£229.99"
+      },
+      {
+        "id": 5,
+        "img": "courses/JS/6.png",
+        "title": "JavaScript Beginner Bootcamp (2022)",
+        "author": "Al Sweigart",
+        "rate": 4.7,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£14.99"
+      },
+      {
+        "id": 6,
+        "img": "courses/JS/7.png",
+        "title": "ES6 Javascript: The Complete Developer's Guide",
+        "author": "Jose Portilla",
+        "rate": 4.6,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£34.99"
+      },
+      {
+        "id": 7,
+        "img": "courses/JS/8.png",
+        "title": "Accelerated JavaScript Training",
+        "author": "Ardit Sulce",
+        "rate": 4.5,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£16.99"
+      },
+      {
+        "id": 8,
+        "tit": "Grow your software development skills with JavaScript",
+        "disc": "JavaScript is a text-based computer programming language used to make dynamic web pages. A must-learn for aspiring web developers or programmers, JavaScript can be used for features like image carousels, displaying countdowns and timers, and playing media on a webpage. With JavaScript online classes, you can learn to build",
+        "bt": "Explore JavaScript"
+      }
+    ]
+  },
+  {
+    "Data_Science": [
+      {
+        "id": 0,
+        "img": "courses/Data_Science/1.png",
+        "title": "Data Science A-Z™: Real-Life Data Science Exercises Included",
+        "author": "Avinash Jain, The Codex",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,876)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 1,
+        "img": "courses/Data_Science/2.png",
+        "title": "Machine Learning, Data Science and Deep Learning",
+        "author": "Jose Portilla",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(17,984)",
+        "price": "E£269.99"
+      },
+      {
+        "id": 2,
+        "img": "courses/Data_Science/3.png",
+        "title": "Data Science: Deep Learning and Neural Networks",
+        "author": "Edwin Diaz, Coding Faculty Solutions",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(1,766)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 3,
+        "img": "courses/Data_Science/4.png",
+        "title": "R Programming A-Z™: R For Data Science",
+        "author": "Abrar Hussain",
+        "rate": 4.3,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,767)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 4,
+        "img": "courses/Data_Science/5.png",
+        "title": "Data Science and Machine Learning Bootcamp",
+        "author": "Infinite Skills",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£229.99"
+      },
+      {
+        "id": 5,
+        "img": "courses/Data_Science/6.png",
+        "title": "R Programming: Advanced Analytics In R For Data Science",
+        "author": "Al Sweigart",
+        "rate": 4.7,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£14.99"
+      },
+      {
+        "id": 6,
+        "img": "courses/Data_Science/7.png",
+        "title": "Python for Data Science and Machine Learning Bootcamp",
+        "author": "Jose Portilla",
+        "rate": 4.6,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£34.99"
+      },
+      {
+        "id": 7,
+        "img": "courses/Data_Science/1.png",
+        "title": "Python A-Z™: Python For Data Science With Real Exercises!",
+        "author": "Ardit Sulce",
+        "rate": 4.5,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£16.99"
+      },
+      {
+        "id": 8,
+        "tit": "Lead data-driven decisions with Data Science",
+        "disc": "Data science application is an in-demand skill in many industries worldwide - including finance, transportation, education, manufacturing, human resources, and banking. Explore data science courses with Python, statistics, machine learning, and more to grow your knowledge. Get data science training if you're into research, statistics, and analytics.",
+        "bt": "Explore Data Science"
+      }
+    ]
+  },
+  {
+    "AWS": [
+      {
+        "id": 0,
+        "img": "courses/AWS/1.png",
+        "title": "Amazon Web Services (AWS) Certified 2022",
+        "author": "Avinash Jain, The Codex",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,876)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 1,
+        "img": "courses/AWS/2.png",
+        "title": "AWS Certified Security Specialty 2022",
+        "author": "Jose Portilla",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(17,984)",
+        "price": "E£269.99"
+      },
+      {
+        "id": 2,
+        "img": "courses/AWS/3.png",
+        "title": "Part 1: AWS Certified Solutions Architect SAA",
+        "author": "Edwin Diaz, Coding Faculty Solutions",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(1,766)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 3,
+        "img": "courses/AWS/4.png",
+        "title": "Practice Test AWS Solutions Architect Associate SAA C03",
+        "author": "Abrar Hussain",
+        "rate": 4.3,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,767)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 4,
+        "img": "courses/AWS/5.png",
+        "title": "AWS Certified Solution Architect - Associate",
+        "author": "Infinite Skills",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£229.99"
+      },
+      {
+        "id": 5,
+        "img": "courses/AWS/6.png",
+        "title": "AWS Certified Solutions Architect - Associate 2022",
+        "author": "Al Sweigart",
+        "rate": 4.7,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£14.99"
+      },
+      {
+        "id": 6,
+        "img": "courses/AWS/7.png",
+        "title": "The Ultimate AWS Certified Solutions Architect - Associate",
+        "author": "Jose Portilla",
+        "rate": 4.6,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£34.99"
+      },
+      {
+        "id": 7,
+        "img": "courses/AWS/8.png",
+        "title": "AWS Certified Cloud Practitioner 2022",
+        "author": "Ardit Sulce",
+        "rate": 4.5,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£16.99"
+      },
+      {
+        "id": 8,
+        "tit": "Become an expert in cloud computing with AWS Certification",
+        "disc": "Prep for your AWS certification with an AWS course on Udemy. Learn the fundamentals of AWS such as working with a serverless platform, the various frameworks, security and more. With these courses, you'll build the valuable skills you need to implement cloud initiatives - and open up new career opportunities. If you want to become an AWS developer, we've got the course for you.",
+        "bt": "Explore AWS"
+      }
+    ]
+  },
+  {
+    "Drawing": [
+      {
+        "id": 0,
+        "img": "courses/Drawing/1.png",
+        "title": "The Secrets to Drawing",
+        "author": "Avinash Jain, The Codex",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,876)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 1,
+        "img": "courses/Drawing/2.png",
+        "title": "Drawing and Sketching for Beginners",
+        "author": "Jose Portilla",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(17,984)",
+        "price": "E£269.99"
+      },
+      {
+        "id": 2,
+        "img": "courses/Drawing/3.png",
+        "title": "Building Confidence Through Drawing: Art for Beginners",
+        "author": "Edwin Diaz, Coding Faculty Solutions",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(1,766)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 3,
+        "img": "courses/Drawing/4.png",
+        "title": "Art for Kids & Beginners: 15 Easy Drawing & Painting",
+        "author": "Abrar Hussain",
+        "rate": 4.3,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,767)",
+        "price": "E£199.99"
+      },
+      {
+        "id": 4,
+        "img": "courses/Drawing/5.png",
+        "title": "The Ultimate Drawing Course - Beginner to Advanced",
+        "author": "Infinite Skills",
+        "rate": 4.4,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£229.99"
+      },
+      {
+        "id": 5,
+        "img": "courses/Drawing/6.png",
+        "title": "The Art & Science of Drawing / BASIC SKILLS",
+        "author": "Al Sweigart",
+        "rate": 4.7,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£14.99"
+      },
+      {
+        "id": 6,
+        "img": "courses/Drawing/7.png",
+        "title": "How to Draw and Sketch for Absolute Beginners pt 1",
+        "author": "Jose Portilla",
+        "rate": 4.6,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£34.99"
+      },
+      {
+        "id": 7,
+        "img": "courses/Drawing/8.png",
+        "title": "The Art & Science of Drawing / DYNAMIC MARK MAKING",
+        "author": "Ardit Sulce",
+        "rate": 4.5,
+        "draw_star": [
+          "checked",
+          "checked",
+          "checked",
+          "checked",
+          "-half-full checked"
+        ],
+        "students": "(2,929)",
+        "price": "E£16.99"
+      },
+      {
+        "id": 8,
+        "tit": "Expand your creative skillset with Drawing",
+        "disc": "Want to start drawing for fun or take your craft to the next level? Explore our online drawing classes and learn pencil drawing, figure drawing, cartoon drawing, character drawing for cartoons and anime, illustration, sketching, shading and more. Take an overview course on the fundamentals of drawing or zero in on an area you'd like to improve with a specialized course. We've got tons of options to get - and keep - you going.",
+        "bt": "Explore Drawing"
+      }
+    ]
+  }
+]
